@@ -1,0 +1,9 @@
+#Db Configuration
+spring.splitwise-ms.driver-class-name=com.mysql.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+spring.jpa.show-sql=true
+spring.splitwise-ms.url=jdbc:mysql://localhost:3306/splitwise?autoReconnect=true
+spring.splitwise-ms.username=root
+spring.splitwise-ms.password=root
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
